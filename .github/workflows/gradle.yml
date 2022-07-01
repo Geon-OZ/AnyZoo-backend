@@ -75,5 +75,5 @@ jobs:
         --application-name anyzoo 
         --deployment-group-name anyzoo-group
         --file-exists-behavior OVERWRITE 
-        --s3-location bucket=anyzoobucket,bundleType=zip,key=anyzoo.zip
+        --s3-location bucket=anyzoo,bundleType=zip,key=anyzoo.zip
         --region ap-northeast-2
