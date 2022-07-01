@@ -26,6 +26,7 @@ jobs:
     
     - name: Build with Gradle
       run: ./gradlew clean build
+      shell: bash
       
     # 디렉토리 생성
     - name: Make Directory
